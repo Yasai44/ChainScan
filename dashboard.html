@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Chain Scan Dashboard</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #0b1020;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            height: 48px;
+        }
+
+        .tagline {
+            color: #8aa0c8;
+            font-size: 0.9rem;
+            margin-top: -0.5rem;
+        }
+
+        .card {
+            background: #141a33;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #262b45;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: #1c2340;
+        }
+
+        a {
+            color: #40a9ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            color: #8aa0c8;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Branding Header -->
+    <div class="header">
+        <img src="assets/chain-scan-logo.svg" class="logo">
+        <div>
+            <h1>Chain Scan Dashboard</h1>
+            <p class="tagline">Supply Chain Risk Intelligence</p>
+        </div>
+    </div>
+
+    <!-- Summary Card -->
+    <div class="card">
+        <h2>Scanned Packages</h2>
+        <p>Overview of all analyzed Python packages and files.</p>
+    </div>
+
+    <!-- Table of Reports -->
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Target</th>
+                    <th>Risk Score</th>
+                    <th>Risk Level</th>
+                    <th>Report</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows inserted by dashboard.py -->
+                {{rows}}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Chain Scan v1.0.0 — Built for secure software supply chains
+    </div>
+
+</body>
+</html>

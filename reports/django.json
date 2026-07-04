@@ -1,0 +1,13 @@
+{
+  "package": "django",
+  "risk_score": 1,
+  "risk_level": "low",
+  "findings": [
+    {
+      "type": "metadata",
+      "indicator": "low_downloads",
+      "score": 1,
+      "details": "Downloads last month: -1"
+    }
+  ]
+}

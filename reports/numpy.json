@@ -1,0 +1,4033 @@
+{
+  "package": "numpy",
+  "risk_score": 1806,
+  "risk_level": "high",
+  "findings": [
+    {
+      "type": "metadata",
+      "indicator": "low_downloads",
+      "score": 1,
+      "details": "Downloads last month: -1"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\.spin\\cmds.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\.spin\\cmds.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\.spin\\cmds.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\asv_pip_nopep517.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\asv_pip_nopep517.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\benchmarks\\bench_import.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\benchmarks\\bench_import.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\benchmarks\\bench_indexing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\benchmarks\\bench_lib.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\benchmarks\\bench_ma.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\benchmarks\\benchmarks\\bench_polynomial.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\doc\\neps\\conf.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_expired_attrs_2_0.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_pytesttester.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\core\\multiarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\core\\_internal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\core\\_multiarray_umath.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\core\\_multiarray_umath.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\core\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\auxfuncs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\auxfuncs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\capi_maps.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\cfuncs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\crackfortran.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\crackfortran.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\crackfortran.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\f2py2e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\f2py2e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\f90mod_rules.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\symbolic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\_src_pyf.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_abstract_interface.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_assumed_shape.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_callback.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_crackfortran.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_f2py2e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_f2py2e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_f2py2e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_modules.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_quoted_character.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_regression.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\test_size.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\util.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\util.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\util.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\tests\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\_backends\\_backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\_backends\\_meson.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\_backends\\_meson.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\f2py\\_backends\\_meson.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\introspect.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_format_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_format_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_function_base_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_function_base_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_function_base_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_iotools.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_npyio_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_npyio_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_npyio_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_npyio_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_polynomial_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_polynomial_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_shape_base_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_type_check_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\_utils_impl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\tests\\test_format.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\tests\\test_format.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\tests\\test_function_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\tests\\test_io.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\tests\\test_io.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\lib\\tests\\test_io.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\_linalg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\_linalg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\lapack_lite\\fortran.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\lapack_lite\\make_lite.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\lapack_lite\\make_lite.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\lapack_lite\\make_lite.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\tests\\test_linalg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\tests\\test_linalg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\tests\\test_linalg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\linalg\\tests\\test_linalg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\core.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\core.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\mrecords.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\tests\\test_core.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\tests\\test_mrecords.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\tests\\test_mrecords.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\ma\\tests\\test_old_ma.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\matrixlib\\defmatrix.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\matrixlib\\tests\\test_masked_matrix.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\chebyshev.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\hermite.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\hermite_e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\laguerre.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\legendre.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\polynomial.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\_polybase.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\tests\\test_hermite_e.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\polynomial\\tests\\test_polynomial.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_direct.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_extending.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_extending.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_extending.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_generator_mt19937.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_randomstate.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\tests\\test_smoke.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\random\\_examples\\numba\\extending_distributions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\extbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\extbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\extbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\testing\\_private\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_configtool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_lazyloading.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_lazyloading.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_public_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_public_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_public_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_reloading.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_reloading.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_reloading.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_scripts.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\tests\\test_scripts.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\typing\\tests\\test_typing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\typing\\tests\\test_typing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\conv_template.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\gcc_build_bitness.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\gitversion.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\process_src_template.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\tempita.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\tempita\\_tempita.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\tempita\\_tempita.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_build_utils\\tempita\\_tempita.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\arrayprint.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\fromnumeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\fromnumeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\function_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\function_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\multiarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\numeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\numeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\numeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\records.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\records.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_add_newdocs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_add_newdocs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_add_newdocs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_add_newdocs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_asarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_internal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_internal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_methods.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\_ufunc_config.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\genapi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\genapi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\generate_numpy_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\generate_umath_doc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\numpy_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\ufunc_docstrings.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\code_generators\\ufunc_docstrings.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\runtests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\upgrade_pythoncapi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\tests\\setup.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\tests\\test_pythoncapi_compat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\tests\\test_pythoncapi_compat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\tests\\test_pythoncapi_compat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\common\\pythoncapi-compat\\tests\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\highway\\docs\\mm-converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\highway\\docs\\mm-converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_os.system",
+      "score": 2,
+      "details": "os.system found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\highway\\docs\\mm-converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\src\\npysort\\x86-simd-sort\\run-bench.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_arrayprint.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_cpu_dispatcher.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_cpu_features.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_cpu_features.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_custom_dtypes.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_cython.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_cython.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_cython.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_datetime.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_deprecations.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_dtype.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_dtype.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_finfo.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_function_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_hashtable.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_limited_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_limited_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_limited_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multiarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multiarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multiarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multiarray.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multiprocessing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multiprocessing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_multithreading.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_nditer.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_nditer.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_overrides.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_records.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_records.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_regression.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_regression.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_scalarmath.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_simd.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_simd.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_simd.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_stringdtype.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_ufunc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_umath.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_umath.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test_umath_accuracy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\test__exceptions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_core\\tests\\examples\\cython\\setup.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_pyinstaller\\tests\\test_pyinstaller.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_pyinstaller\\tests\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_utils\\_inspect.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\numpy\\_utils\\_pep440.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\check_python_h_first.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\check_python_h_first.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\linter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\linter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\pyright_completeness.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\refguide_check.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\refguide_check.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\write_release.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_os.system",
+      "score": 2,
+      "details": "os.system found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\write_release.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\ci\\check_c_api_usage.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\ci\\push_docs_to_repo.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\ci\\push_docs_to_repo.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\tools\\c_coverage\\c_coverage_report.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_cross_test.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_cross_test.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_format_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_meson_command_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_mypy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_mypy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_mypy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_project_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_project_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_project_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_single_test.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_tests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\run_unittests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\skip_ci.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\ci\\ciimage\\build.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\ci\\ciimage\\build.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\genrelnotes.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\validatelinks.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\extensions\\refman_links.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\refman\\generatorman.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\refman\\generatorpickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\refman\\loaderbase.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\refman\\loaderpickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\docs\\refman\\main.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\manual tests\\4 standalone binaries\\build_windows_package.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\arglist.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\arglist.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\build.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\build.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\build.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\build.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\coredata.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\coredata.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\coredata.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\coredata.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\envconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\envconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\envconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\environment.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\environment.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\machinefile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mcompile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mcompile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mconf.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mconf.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mdevenv.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mdevenv.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mdist.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mdist.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mesonmain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mesonmain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mesonmain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\minit.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\minit.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\minit.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\minstall.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\minstall.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\minstall.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mintro.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mlog.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mparser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\msetup.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\msetup.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\msetup.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\msubprojects.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\msubprojects.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mtest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mtest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mtest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\mtest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\munstable_coredata.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\optinterpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\optinterpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\options.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\options.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\programs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\rewriter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\ast\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\ast\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\ast\\introspection.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\ast\\introspection.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\backends.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\backends.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\backends.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\backends.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\ninjabackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\ninjabackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\ninjabackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\ninjabackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\ninjabackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2010backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2010backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2010backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2012backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2013backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2015backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2017backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2019backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\vs2022backend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\xcodebackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\xcodebackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\backend\\xcodebackend.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cargo\\cfg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cargo\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cargo\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\executor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\executor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\executor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\fileapi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\toolchain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\toolchain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\traceparser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\traceparser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\traceparser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\tracetargets.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\cmake\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\asm.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\asm.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\c.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\compilers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\compilers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\cpp.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\cs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\cs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\cuda.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\cuda.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\cython.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\d.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\d.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\detect.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\detect.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\detect.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\fortran.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\java.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\java.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\objc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\objcpp.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\rust.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\rust.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\swift.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\swift.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\swift.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\vala.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\apple.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\arm.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\ccrx.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\clang.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\clike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\clike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\clike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\clike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\compcert.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\elbrus.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\elbrus.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\emscripten.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\gnu.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\gnu.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\intel.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\islinker.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\islinker.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\metrowerks.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\pgi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\tasking.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\ti.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\visualstudio.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\visualstudio.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\compilers\\mixins\\xc16.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\blas_lapack.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\blas_lapack.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\boost.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\boost.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\cmake.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\cmake.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\cmake.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\cmake.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\coarrays.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\configtool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\configtool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\cuda.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\dev.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\dev.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\dev.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\dub.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\dub.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\framework.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\hdf5.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\misc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\mpi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\pkgconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\pkgconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\platform.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\python.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\qt.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\qt.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\scalapack.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\ui.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\ui.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\dependencies\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\compiler.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\interpreter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\interpreterobjects.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\interpreterobjects.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\interpreterobjects.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\kwargs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\kwargs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\mesonmain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\mesonmain.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\type_checking.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\type_checking.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreter\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreterbase\\interpreterbase.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreterbase\\interpreterbase.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\interpreterbase\\interpreterbase.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\linkers\\base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\linkers\\detect.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\linkers\\linkers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\linkers\\linkers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\linkers\\linkers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\cmake.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\cmake.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\cuda.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\external_project.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\external_project.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\gnome.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\gnome.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\gnome.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\hotdoc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\hotdoc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\hotdoc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\hotdoc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\java.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\pkgconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\python.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\python.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\rust.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\rust.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\simd.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\windows.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\windows.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\_qt.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\_qt.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\features\\feature.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\features\\feature.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\features\\module.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\features\\module.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\modules\\features\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\clangformat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\clangtidy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\clangtidy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\cleantrees.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\clippy.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\cmake_run_ctgt.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\coverage.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\coverage.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\depaccumulate.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\depfixer.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\depfixer.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\depscan.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\depscan.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\dirchanger.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\dirchanger.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\env2mfile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\env2mfile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\env2mfile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_os.system",
+      "score": 2,
+      "details": "os.system found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\env2mfile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\externalproject.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\gettext.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\gtkdochelper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\gtkdochelper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\hotdochelper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\itstool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\meson_exe.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\meson_exe.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\meson_exe.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\meson_exe.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\msgfmthelper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\pycompile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\pycompile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\pycompile.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\regen_checker.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\regen_checker.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\reprotest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\reprotest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\run_tool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\run_tool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\run_tool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\rustdoc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\scanbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\scanbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\scanbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\tags.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\test_loaded_modules.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\vcstagger.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\scripts\\yasm.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\cpptemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\cstemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\ctemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\cudatemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\dlangtemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\fortrantemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\mesontemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\objcpptemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\objctemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\rusttemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\sampleimpl.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\templates\\valatemplates.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\core.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\universal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\universal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\universal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\universal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\universal.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\utils\\vsenv.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\wrap\\wrap.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\mesonbuild\\wrap\\wrap.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\builddist.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\createmsi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\createmsi.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\createpkg.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\hook-mesonbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\hook-mesonbuild.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\packaging\\mpackage.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\121 object only target\\obj_generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\121 object only target\\obj_generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\135 custom target object output\\obj_generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\135 custom target object output\\obj_generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\139 mesonintrospect from scripts\\check_env.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\139 mesonintrospect from scripts\\check_introspection.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\208 link custom\\custom_stlib.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\208 link custom\\custom_stlib.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\209 link custom_i single from multiple\\generate_conflicting_stlibs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\209 link custom_i single from multiple\\generate_conflicting_stlibs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\210 link custom_i multiple from multiple\\generate_stlibs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\210 link custom_i multiple from multiple\\generate_stlibs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\22 object extraction\\check-obj.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\226 link depends indexed custom target\\check_arch.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\41 test args\\pathtester.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\41 test args\\tester.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\41 test args\\wrap.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\52 object generator\\obj_generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\52 object generator\\obj_generator.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\57 custom header generator\\makeheader.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\65 build always\\version_gen.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\95 manygen\\subdir\\manygen.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\common\\95 manygen\\subdir\\manygen.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\d\\3 shared library\\lld-test.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\frameworks\\1 boost\\test_python_module.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\linuxlike\\14 static dynamic linkage\\verify_static.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\linuxlike\\14 static dynamic linkage\\verify_static.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\native\\3 pipeline\\depends\\copyrunner.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\native\\5 install script\\wrap.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\python\\11 script path\\run.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\rust\\16 internal c dependencies\\test.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\106 underspecified mtest\\runner.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\35 dist script\\subprojects\\sub\\dist-script.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\45 native dep pkgconfig var\\cross_pkgconfig.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\5 compiler detection\\compiler wrapper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\60 identity cross\\build_wrapper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\60 identity cross\\host_wrapper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\unit\\70 cross test passed\\script.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\windows\\13 test argument extra paths\\test\\test_run_exe.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\test cases\\windows\\16 gui app\\gui_app_tester.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\ac_converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\ac_converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\boost_names.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\build_website.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\cmake2meson.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\cmake2meson.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\dircondenser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\regenerate_docs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\regenerate_docs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\tools\\regenerate_docs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\allplatformstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\allplatformstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\allplatformstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\allplatformstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\allplatformstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\baseplatformtests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\baseplatformtests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\cargotests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\darwintests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\darwintests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\darwintests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\datatests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\failuretests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\failuretests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\featurestests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\featurestests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\helpers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\helpers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\helpers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\internaltests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\internaltests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\internaltests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\internaltests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\linuxcrosstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\linuxcrosstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\linuxliketests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\linuxliketests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\linuxliketests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\machinefiletests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\machinefiletests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\machinefiletests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\optiontests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\optiontests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\platformagnostictests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\platformagnostictests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\pythontests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\pythontests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\rewritetests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\subprojectscommandtests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\windowstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\windowstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\windowstests.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpjklmm3xa\\numpy-2.5.0rc1\\vendored-meson\\meson\\unittests\\__init__.py"
+    }
+  ]
+}

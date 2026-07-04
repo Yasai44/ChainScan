@@ -1,0 +1,133 @@
+{
+  "package": "flask",
+  "risk_score": 60,
+  "risk_level": "high",
+  "findings": [
+    {
+      "type": "metadata",
+      "indicator": "low_downloads",
+      "score": 1,
+      "details": "Downloads last month: -1"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\flaskr\\auth.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\flaskr\\blog.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\flaskr\\db.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\tests\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\tests\\test_auth.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\tests\\test_blog.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\examples\\tutorial\\tests\\test_db.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\app.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\app.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\cli.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\cli.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\cli.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\config.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\config.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\ctx.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\ctx.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\sessions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\sansio\\app.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\src\\flask\\sansio\\scaffold.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpsjfmpwsx\\flask-3.1.3\\tests\\test_cli.py"
+    }
+  ]
+}

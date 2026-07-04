@@ -1,0 +1,10 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="40" rx="8" fill="#0b1020"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, sans-serif" font-size="20" fill="#40a9ff">
+    Chain Scan
+  </text>
+  <circle cx="20" cy="20" r="10" stroke="#40a9ff" stroke-width="3" fill="none"/>
+  <circle cx="35" cy="20" r="10" stroke="#40a9ff" stroke-width="3" fill="none"/>
+  <line x1="25" y1="20" x2="30" y2="20" stroke="#40a9ff" stroke-width="3"/>
+</svg>

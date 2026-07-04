@@ -1,0 +1,1531 @@
+{
+  "package": "pandas",
+  "risk_score": 696,
+  "risk_level": "high",
+  "findings": [
+    {
+      "type": "metadata",
+      "indicator": "low_downloads",
+      "score": 1,
+      "details": "Downloads last month: -1"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\_version.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\api\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\api\\executors\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\compat\\pickle_compat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\apply.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\apply.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\col.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\frame.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\frame.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\frame.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\indexing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\nanops.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\resample.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\series.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\series.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\series.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\shared_docs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\shared_docs.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\datetimelike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\interval.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\string_arrow.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\arrow\\array.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\arrow\\array.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\arrow\\extension_types.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\arrow\\extension_types.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\sparse\\accessor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\sparse\\array.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\arrays\\sparse\\scipy_sparse.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\array_algos\\replace.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\align.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\engines.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\eval.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\expr.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\expressions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\ops.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\parsing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\parsing.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\pytables.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\computation\\scope.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\dtypes\\base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\dtypes\\common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\dtypes\\concat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\dtypes\\dtypes.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\dtypes\\dtypes.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\dtypes\\inference.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\generic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\groupby.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\groupby.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\groupby.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\groupby\\numba_.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\indexes\\base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\indexes\\base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\indexes\\datetimes.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\indexes\\range.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\interchange\\dataframe_protocol.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\internals\\blocks.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\internals\\blocks.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\internals\\managers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\methods\\describe.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\ops\\array_ops.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\strings\\accessor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\strings\\accessor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\strings\\object_array.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\doc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\ewm.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\ewm.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\expanding.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\expanding.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\rolling.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\rolling.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\window\\rolling.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\core\\_numba\\extensions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\errors\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\errors\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\html.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\orc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\pytables.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\pytables.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\pytables.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\pytables.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\sql.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\sql.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\sql.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\xml.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\clipboard\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\clipboard\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\excel\\_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\excel\\_odswriter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\formats\\format.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\formats\\format.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\formats\\style_render.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\parsers\\base_parser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\parsers\\c_parser_wrapper.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\parsers\\python_parser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\parsers\\python_parser.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\io\\parsers\\readers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\plotting\\_core.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\plotting\\_matplotlib\\converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\plotting\\_matplotlib\\core.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\plotting\\_matplotlib\\hist.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\plotting\\_matplotlib\\misc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_algos.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_downstream.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_downstream.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_downstream.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_expressions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\test_nanops.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\api\\test_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\api\\test_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\api\\test_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\apply\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\apply\\test_series_apply.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arithmetic\\test_numeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arithmetic\\test_numeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\test_timedeltas.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\categorical\\test_operators.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\floating\\test_comparison.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\integer\\test_comparison.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\sparse\\test_array.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\sparse\\test_array.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\arrays\\string_\\test_string_arrow.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\computation\\test_compat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\computation\\test_eval.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\copy_view\\test_astype.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\copy_view\\test_methods.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\dtypes\\test_dtypes.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\dtypes\\test_inference.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\extension\\test_arrow.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\extension\\test_arrow.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_arithmetic.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_block_internals.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_query_eval.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_reductions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_reductions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_subclass.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\test_validate.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\methods\\test_info.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\methods\\test_replace.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\methods\\test_sample.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\frame\\methods\\test_to_csv.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\generic\\test_duplicate_labels.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\generic\\test_finalize.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\generic\\test_finalize.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\groupby\\test_apply.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\groupby\\test_apply.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\groupby\\test_grouping.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\groupby\\transform\\test_transform.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\test_any_index.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\test_frozen.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\test_old_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\test_old_base.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\base_class\\test_formats.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\base_class\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\categorical\\test_category.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\datetimes\\test_datetime.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\datetimes\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\interval\\test_constructors.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\interval\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\multi\\test_formats.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\multi\\test_integrity.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\multi\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\numeric\\test_numeric.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\period\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\ranges\\test_range.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexes\\timedeltas\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexing\\test_chaining_and_caching.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexing\\test_iloc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexing\\test_loc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\indexing\\multiindex\\test_indexing_slow.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\internals\\test_internals.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\generate_legacy_storage_files.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\generate_legacy_storage_files.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_common.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_compression.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_compression.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_compression.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_fsspec.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_html.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_http_headers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_pickle.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_sql.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\test_sql.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\excel\\test_writers.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\formats\\test_to_html.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\formats\\style\\test_style.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\json\\test_normalize.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\json\\test_ujson.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\parser\\conftest.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\parser\\test_c_parser_only.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\parser\\test_network.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\pytables\\test_compat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\pytables\\test_round_trip.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\pytables\\test_store.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\xml\\test_to_xml.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\xml\\test_to_xml.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\xml\\test_xml.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\io\\xml\\test_xml.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\libs\\test_lib.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\plotting\\test_converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\plotting\\test_converter.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\plotting\\test_datetimelike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\plotting\\test_datetimelike.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\plotting\\test_misc.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\resample\\test_resample_api.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\test_nat.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\test_na_scalar.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\period\\test_period.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\timedelta\\test_timedelta.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\timestamp\\test_constructors.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\timestamp\\test_formats.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\scalar\\timestamp\\test_timestamp.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\series\\accessors\\test_dt_accessor.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\series\\methods\\test_map.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\series\\methods\\test_map.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\series\\methods\\test_replace.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\strings\\test_find_replace.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\strings\\test_split_partition.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tseries\\offsets\\test_business_hour.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tseries\\offsets\\test_custom_business_day.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tseries\\offsets\\test_custom_business_month.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tseries\\offsets\\test_offsets.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tseries\\offsets\\test_offsets.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tslibs\\test_timezones.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tslibs\\test_timezones.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\tests\\tslibs\\test_to_offset.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\util\\_exceptions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\util\\_test_decorators.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\util\\_test_decorators.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\util\\version\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\_config\\localization.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\_config\\localization.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\_libs\\__init__.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\_testing\\_io.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmppoju4mn5\\pandas-3.0.4\\pandas\\_testing\\__init__.py"
+    }
+  ]
+}

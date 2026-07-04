@@ -1,0 +1,78 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <title>Supply Chain Risk Report - django</title>
+            <style>
+                body {
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                    background: #0b1020;
+                    color: #f0f0f0;
+                    margin: 0;
+                    padding: 2rem;
+                }
+                .card {
+                    background: #141a33;
+                    border-radius: 8px;
+                    padding: 1.5rem;
+                    margin-bottom: 1.5rem;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+                }
+                h1, h2 {
+                    margin: 0 0 0.75rem 0;
+                }
+                .risk-level {
+                    color: #52c41a;
+                    font-weight: bold;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 1rem;
+                }
+                th, td {
+                    padding: 0.5rem 0.75rem;
+                    border-bottom: 1px solid #262b45;
+                    text-align: left;
+                    font-size: 0.9rem;
+                }
+                th {
+                    background: #1c2340;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="card">
+                <h1>Supply Chain Risk Report</h1>
+                <p><strong>Target:</strong> django</p>
+                <p><strong>Risk score:</strong> 1</p>
+                <p><strong>Risk level:</strong> <span class="risk-level">low</span></p>
+            </div>
+
+            <div class="card">
+                <h2>Findings</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Indicator</th>
+                            <th>Severity</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+            <tr>
+                <td>metadata</td>
+                <td>low_downloads</td>
+                <td style="color:#52c41a; font-weight:bold;">1</td>
+                <td>Downloads last month: -1</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+        </body>
+        </html>
+        

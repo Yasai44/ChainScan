@@ -1,0 +1,19 @@
+{
+  "package": "request",
+  "risk_score": 3,
+  "risk_level": "low",
+  "findings": [
+    {
+      "type": "metadata",
+      "indicator": "low_downloads",
+      "score": 1,
+      "details": "Downloads last month: 0"
+    },
+    {
+      "type": "metadata",
+      "indicator": "no_homepage",
+      "score": 2,
+      "details": "No homepage or project URL"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "path": "uploads\\code.py",
+  "risk_score": 15,
+  "risk_level": "high",
+  "findings": [
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in uploads\\code.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in uploads\\code.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in uploads\\code.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_subprocess",
+      "score": 2,
+      "details": "subprocess found in uploads\\code.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_os.system",
+      "score": 2,
+      "details": "os.system found in uploads\\code.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in uploads\\code.py"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "package": "requests",
+  "risk_score": 32,
+  "risk_level": "high",
+  "findings": [
+    {
+      "type": "metadata",
+      "indicator": "low_downloads",
+      "score": 1,
+      "details": "Downloads last month: -1"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_os.system",
+      "score": 2,
+      "details": "os.system found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\setup.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\adapters.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\auth.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\cookies.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\models.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_eval",
+      "score": 3,
+      "details": "eval found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\sessions.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\utils.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\packages\\chardet\\universaldetector.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\packages\\urllib3\\connectionpool.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_exec",
+      "score": 3,
+      "details": "exec found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\packages\\urllib3\\packages\\six.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_pickle",
+      "score": 2,
+      "details": "pickle found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\packages\\urllib3\\packages\\six.py"
+    },
+    {
+      "type": "code",
+      "indicator": "use_of_compile",
+      "score": 3,
+      "details": "compile found in C:\\Users\\saina\\AppData\\Local\\Temp\\tmpeuo3u9ph\\requests-2.9.2\\requests\\packages\\urllib3\\packages\\ssl_match_hostname\\_implementation.py"
+    }
+  ]
+}
